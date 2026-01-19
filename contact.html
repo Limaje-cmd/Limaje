@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!--? Preloader Start -->
+<div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+                <img src="assets/img/logo/loder.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Preloader Start -->
+<!-- Header Start -->
+<div class="header-area header-transparent">
+    <div class="main-header ">
+        <div class="header-bottom  header-sticky">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <!-- Logo -->
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="logo">
+                            <a href="#"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10">
+                        <div class="menu-wrapper d-flex align-items-center justify-content-end">
+                            <!-- Main-menu -->
+                            <div class="main-menu d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">                                                                                          
+                                        <li class="active" ><a href="#">Accueil</a></li>
+                                        <li><a href="contact.html" target="_top">Contacts</a></li>
+                                        <!-- Button -->
+                                        <li class="button-header margin-left "><a href="#" class="btn" target="_top">Connexion</a></li>
+                                        <li class="button-header"><a href="#" class="btn btn3" target="_top">Inscription</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+<main>
+    <!--? slider Area Start-->
+    <section class="slider-area slider-area2">
+        <div class="slider-active">
+            <!-- Single Slider -->
+            <div class="single-slider slider-height2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-11 col-md-12">
+                            <div class="hero__caption hero__caption2">
+                                <h1 data-animation="bounceIn" data-delay="0.2s">Contact us</h1>
+                                <!-- breadcrumb Start-->
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Contacts</a></li> 
+                                    </ol>
+                                </nav>
+                                <!-- breadcrumb End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </section>
+    <!--?  Contact Area start  -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="contact-title">Entrer en contact</h2>
+                </div>
+                <div class="col-lg-8">
+                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrez le message'" placeholder=" Entrez le message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrez votre nom'" placeholder="Entrez votre nom">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrez l\'adresse email'" placeholder="Entrez l'adresse email">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrez le sujet'" placeholder="Entrez le sujet">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="submit" class="button button-contactForm boxed-btn">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-home"></i></span>
+                        <div class="media-body">
+                            <h3>Toffo, Houègbo</h3>
+                            <p>Maison, Limaje</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                        <div class="media-body">
+                            <h3>+229 01 97 34 80 39</h3>
+                            <p>Lundi au Vendredi de 9 heures à 19 heures</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-email"></i></span>
+                        <div class="media-body">
+                            <h3>limaje.org@gmail.com</h3>
+                            <p>N'hésitez pas à nous envoyer votre question à tout moment !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Area End -->
+</main>
+    <footer>
+     <div class="footer-wrappper footer-bg">
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-4 col-lg-5 col-md-4 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo mb-25">
+                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p>Un accès unique, une éducation intégrée.</p>
+                                    </div>
+                                </div>
+                                <!-- social -->
+                                <div class="footer-social">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Gestion du consentement</h4>
+                                <ul>
+                                    <li><a href="#">Cookies</a></li>
+                                    <li><a href="#">Mode de consentement de Google</a></li>
+                                    <li><a href="#">Règles de domaine</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Politiques</h4>
+                                <ul>
+                                    <li><a href="<?= politics;?>" target="_top">Politique de confidentialité</a></li>
+                                    <li><a href="#">Politique de cookies</a></li>
+                                    <li><a href="<?= conditions;?>" target="_top">Termes et conditions</a></li>
+                                    <li><a href="#">CLUF</a></li>
+                                    <li><a href="#">Mentions légales</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Paramètres</h4>
+                                <ul>
+                                    <li><a href="#">Informations sur le site web</a></li>
+                                    <li><a href="#">Documentation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-bottom area -->
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="footer-border">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-xl-12 ">
+                            <div class="footer-copy-right text-center">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                  Copyright &copy;2025 Tous droits réservés | Application développée   <i class="fa fa-heart" aria-hidden="true"></i> par <a href="javascript:void(0);" target="">CAKPOSSE Sèdjro Eliézer</a>
+                                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Footer End-->
+      </div>
+  </footer> 
+</body>
+<!-- JS here -->
+
+<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<!-- Jquery, Popper, Bootstrap -->
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Jquery Mobile Menu -->
+<script src="assets/js/jquery.slicknav.min.js"></script>
+
+<!-- Jquery Slick , Owl-Carousel Plugins -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<!-- One Page, Animated-HeadLin -->
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/animated.headline.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+
+<!-- Date Picker -->
+<script src="assets/js/gijgo.min.js"></script>
+<!-- Nice-select, sticky -->
+<script src="assets/js/jquery.nice-select.min.js"></script>
+<script src="assets/js/jquery.sticky.js"></script>
+
+<!-- counter , waypoint,Hover Direction -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/jquery.countdown.min.js"></script>
+<script src="assets/js/hover-direction-snake.min.js"></script>
+
+<!-- contact js -->
+<script>
+    $(document).ready(function(){
+    
+    (function($) {
+        "use strict";
+
+    
+    jQuery.validator.addMethod('answercheck', function (value, element) {
+        return this.optional(element) || /^\bcat\b$/.test(value)
+    }, "type the correct answer -_-");
+
+    // validate contactForm form
+    $(function() {
+        $('#contactForm').validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 2
+                },
+                subject: {
+                    required: true,
+                    minlength: 4
+                },
+                number: {
+                    required: true,
+                    minlength: 5
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                message: {
+                    required: true,
+                    minlength: 20
+                }
+            },
+            messages: {
+                name: {
+                    required: "Allez, tu as un nom, non ?",
+                    minlength: "Votre nom doit comporter au moins 2 caractères"
+                },
+                subject: {
+                    required: "Allez, vous avez un sujet, non ?",
+                    minlength: "Votre sujet doit comporter au moins 4 caractères"
+                },
+                number: {
+                    required: "Allez, vous avez un numéro, n'est-ce pas ?",
+                    minlength: "Votre numéro doit comporter au moins 5 caractères"
+                },
+                email: {
+                    required: "Pas d'e-mail, pas de message"
+                },
+                message: {
+                    required: "Euh... oui, il faut écrire quelque chose pour envoyer ce formulaire.",
+                    minlength: "thats all? really?"
+                }
+            },
+            submitHandler: function(form) {
+                /*$(form).ajaxSubmit({
+                    type:"POST",
+                    data: $(form).serialize(),
+                    url:"contact_process.php",
+                    success: function() {
+                        $('#contactForm :input').attr('disabled', 'disabled');
+                        $('#contactForm').fadeTo( "slow", 1, function() {
+                            $(this).find(':input').attr('disabled', 'disabled');
+                            $(this).find('label').css('cursor','default');
+                            $('#success').fadeIn()
+                            $('.modal').modal('hide');
+                            $('#success').modal('show');
+                        })
+                    },
+                    error: function() {
+                        $('#contactForm').fadeTo( "slow", 1, function() {
+                            $('#error').fadeIn()
+                            $('.modal').modal('hide');
+                            $('#error').modal('show');
+                        })
+                    }
+                })*/
+            }
+        })
+    })
+        
+ })(jQuery)
+})</script>
+<script src="./assets/js/jquery.form.js"></script>
+<script src="./assets/js/jquery.validate.min.js"></script>
+<script src="./assets/js/mail-script.js"></script>
+<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+<!-- Jquery Plugins, main Jquery -->	
+<script src="./assets/js/plugins.js"></script>
+<script src="./assets/js/main.js"></script>
+
+</html>
